@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sagimune</title>
+    <link>https://sagimune.github.io/</link>
+    <description>Recent content on Sagimune</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Sun, 28 Apr 2019 21:28:17 +0800</lastBuildDate><atom:link href="https://sagimune.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>灵知的太阳信仰</title>
+      <link>https://sagimune.github.io/oi/array/</link>
+      <pubDate>Sun, 28 Apr 2019 21:28:17 +0800</pubDate>
+      
+      <guid>https://sagimune.github.io/oi/array/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>かぐや様は告らせたい</title>
+      <link>https://sagimune.github.io/go/loveiswar/</link>
+      <pubDate>Wed, 06 Mar 2019 22:55:54 +0800</pubDate>
+      
+      <guid>https://sagimune.github.io/go/loveiswar/</guid>
+      <description>求你们，快滚去结婚吧！</description>
+    </item>
+    
+    <item>
+      <title>CF938G Shortest Path Queries</title>
+      <link>https://sagimune.github.io/oi/cf938g/</link>
+      <pubDate>Fri, 01 Mar 2019 20:24:07 +0800</pubDate>
+      
+      <guid>https://sagimune.github.io/oi/cf938g/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SPOJ Query on a tree VI</title>
+      <link>https://sagimune.github.io/oi/spojqtree6/</link>
+      <pubDate>Mon, 25 Feb 2019 20:03:16 +0800</pubDate>
+      
+      <guid>https://sagimune.github.io/oi/spojqtree6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fateiceの“NOIP模拟赛”</title>
+      <link>https://sagimune.github.io/oi/fateicetest/</link>
+      <pubDate>Tue, 19 Feb 2019 13:11:01 +0800</pubDate>
+      
+      <guid>https://sagimune.github.io/oi/fateicetest/</guid>
+      <description>逐渐凉凉</description>
+    </item>
+    
+    <item>
+      <title>AHOI2013 连通图</title>
+      <link>https://sagimune.github.io/oi/ahoi2013graph/</link>
+      <pubDate>Mon, 18 Feb 2019 20:37:34 +0800</pubDate>
+      
+      <guid>https://sagimune.github.io/oi/ahoi2013graph/</guid>
+      <description>时间分治</description>
+    </item>
+    
+    <item>
+      <title>JSOI2009 等差数列</title>
+      <link>https://sagimune.github.io/oi/jsoi2009aritpro/</link>
+      <pubDate>Sun, 17 Feb 2019 18:39:27 +0800</pubDate>
+      
+      <guid>https://sagimune.github.io/oi/jsoi2009aritpro/</guid>
+      <description>好一道毒瘤紫题</description>
+    </item>
+    
+    <item>
+      <title>洛谷4980 Polya定理</title>
+      <link>https://sagimune.github.io/oi/luogu4980polya/</link>
+      <pubDate>Fri, 15 Feb 2019 09:27:54 +0800</pubDate>
+      
+      <guid>https://sagimune.github.io/oi/luogu4980polya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>逆元</title>
+      <link>https://sagimune.github.io/oi/0823inv/</link>
+      <pubDate>Thu, 23 Aug 2018 13:49:12 +0800</pubDate>
+      
+      <guid>https://sagimune.github.io/oi/0823inv/</guid>
+      <description>Rua~</description>
+    </item>
+    
+  </channel>
+</rss>

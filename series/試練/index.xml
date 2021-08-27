@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>試練 on Sagimune</title>
+    <link>https://sagimune.github.io/series/%E8%A9%A6%E7%B7%B4/</link>
+    <description>Recent content in 試練 on Sagimune</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Tue, 19 Feb 2019 13:11:01 +0800</lastBuildDate><atom:link href="https://sagimune.github.io/series/%E8%A9%A6%E7%B7%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fateiceの“NOIP模拟赛”</title>
+      <link>https://sagimune.github.io/oi/fateicetest/</link>
+      <pubDate>Tue, 19 Feb 2019 13:11:01 +0800</pubDate>
+      
+      <guid>https://sagimune.github.io/oi/fateicetest/</guid>
+      <description>逐渐凉凉</description>
+    </item>
+    
+  </channel>
+</rss>

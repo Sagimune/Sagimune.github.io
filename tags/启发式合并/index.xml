@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>启发式合并 on Sagimune</title>
+    <link>https://sagimune.github.io/tags/%E5%90%AF%E5%8F%91%E5%BC%8F%E5%90%88%E5%B9%B6/</link>
+    <description>Recent content in 启发式合并 on Sagimune</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Fri, 01 Mar 2019 20:24:07 +0800</lastBuildDate><atom:link href="https://sagimune.github.io/tags/%E5%90%AF%E5%8F%91%E5%BC%8F%E5%90%88%E5%B9%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CF938G Shortest Path Queries</title>
+      <link>https://sagimune.github.io/oi/cf938g/</link>
+      <pubDate>Fri, 01 Mar 2019 20:24:07 +0800</pubDate>
+      
+      <guid>https://sagimune.github.io/oi/cf938g/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AHOI2013 连通图</title>
+      <link>https://sagimune.github.io/oi/ahoi2013graph/</link>
+      <pubDate>Mon, 18 Feb 2019 20:37:34 +0800</pubDate>
+      
+      <guid>https://sagimune.github.io/oi/ahoi2013graph/</guid>
+      <description>时间分治</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polya on Sagimune</title>
+    <link>https://sagimune.github.io/tags/polya/</link>
+    <description>Recent content in Polya on Sagimune</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Fri, 15 Feb 2019 09:27:54 +0800</lastBuildDate><atom:link href="https://sagimune.github.io/tags/polya/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>洛谷4980 Polya定理</title>
+      <link>https://sagimune.github.io/oi/luogu4980polya/</link>
+      <pubDate>Fri, 15 Feb 2019 09:27:54 +0800</pubDate>
+      
+      <guid>https://sagimune.github.io/oi/luogu4980polya/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
