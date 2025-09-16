@@ -10,8 +10,7 @@ tags = ['线段树']
 \(\qquad\)据说，从来没有人敢踏入过那个熔炉，因为人们畏缩于空所持有的力量——核能。\
 \(\qquad\)核焰，可融真金。
 {{< /lead >}}
-{{< katex >}}
-<script type="module" src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/copy-tex.mjs" integrity="sha384-bVEnwt0PtX+1EuJoOEcm4rgTUWvb2ILTdjHfI1gUe/r5fdqrTcQaUuRdHG2DciuQ" crossorigin="anonymous"></script>
+{{< katex >}} {{< copy-tex >}}
 ## Description
 
 \(\qquad\)每次核融的时候，空都会选取一些原子，排成一列。然后，她会将原子序列分成一些段，并将每段进行一次核融。 一个原子有两个属性：质子数和中子数。 每一段需要满足以下条件：

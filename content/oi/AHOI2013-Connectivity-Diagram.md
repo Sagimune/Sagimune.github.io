@@ -4,8 +4,7 @@ draft = false
 title = 'AHOI2013 连通图'
 tags = ['线段树','分治','启发式合并']
 +++
-{{< katex >}}
-<script type="module" src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/copy-tex.mjs" integrity="sha384-bVEnwt0PtX+1EuJoOEcm4rgTUWvb2ILTdjHfI1gUe/r5fdqrTcQaUuRdHG2DciuQ" crossorigin="anonymous"></script>
+{{< katex >}} {{< copy-tex >}}
 ## Description
 给定一个\(n\)个点\(m\)条边的图，\(k\)次询问 \
 求删掉给定的\(c\)条边后图是否连通 \

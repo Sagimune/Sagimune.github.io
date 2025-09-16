@@ -4,8 +4,7 @@ draft = false
 title = 'CF938G Shortest Path Queries'
 tags = ['线段树','分治','启发式合并']
 +++
-{{< katex >}}
-<script type="module" src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/copy-tex.mjs" integrity="sha384-bVEnwt0PtX+1EuJoOEcm4rgTUWvb2ILTdjHfI1gUe/r5fdqrTcQaUuRdHG2DciuQ" crossorigin="anonymous"></script>
+{{< katex >}} {{< copy-tex >}}
 ## Description
 有一张\(n\)个点\(m\)条边的无向带边权图，\(Q\)次操作：
 1. 插入一条边

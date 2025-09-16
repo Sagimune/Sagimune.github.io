@@ -85,7 +85,7 @@
 /* KeywordNamespace */ .chroma .kn { color: #fe8019 }
 /* KeywordPseudo */ .chroma .kp { color: #fe8019 }
 /* KeywordReserved */ .chroma .kr { color: #fe8019 }
-/* KeywordType */ .chroma .kt { color: #fabd2f }
+/* KeywordType */ .chroma .kt { color: #caa52a }
 /* NameAttribute */ .chroma .na { color: #b8bb26; font-weight: bold }
 /* NameConstant */ .chroma .no { color: #d3869b }
 /* NameEntity */ .chroma .ni { color: #fabd2f }
@@ -94,16 +94,16 @@
 /* NameTag */ .chroma .nt { color: #fb4934 }
 /* NameBuiltin */ .chroma .nb { color: #fabd2f }
 /* NameBuiltinPseudo */ .chroma .bp { color: #fabd2f }
-/* NameFunction */ .chroma .nf { color: #fabd2f }
+/* NameFunction */ .chroma .nf { color: #346de9 }
 /* NameFunctionMagic */ .chroma .fm { color: #fabd2f }
-/* LiteralString */ .chroma .s { color: #b8bb26 }
+/* LiteralString */ .chroma .s { color: #7db11c}
 /* LiteralStringAffix */ .chroma .sa { color: #b8bb26 }
 /* LiteralStringBacktick */ .chroma .sb { color: #b8bb26 }
-/* LiteralStringChar */ .chroma .sc { color: #b8bb26 }
+/* LiteralStringChar */ .chroma .sc { color: #7db11c }
 /* LiteralStringDelimiter */ .chroma .dl { color: #b8bb26 }
 /* LiteralStringDoc */ .chroma .sd { color: #b8bb26 }
 /* LiteralStringDouble */ .chroma .s2 { color: #b8bb26 }
-/* LiteralStringEscape */ .chroma .se { color: #b8bb26 }
+/* LiteralStringEscape */ .chroma .se { color: #7db11c }
 /* LiteralStringHeredoc */ .chroma .sh { color: #b8bb26 }
 /* LiteralStringInterpol */ .chroma .si { color: #b8bb26 }
 /* LiteralStringOther */ .chroma .sx { color: #b8bb26 }
@@ -124,7 +124,7 @@
 /* CommentMultiline */ .chroma .cm { color: #928374; font-style: italic }
 /* CommentSingle */ .chroma .c1 { color: #928374; font-style: italic }
 /* CommentSpecial */ .chroma .cs { color: #928374; font-style: italic }
-/* CommentPreproc */ .chroma .cp { color: #8ec07c; &:is(.dark *) {color: rgba(var(--color-primary-500), 1);}}
+/* CommentPreproc */ .chroma .cp { color: #7aad68; &:is(.dark *) {color: rgba(var(--color-primary-500), 1);}}
 /* CommentPreprocFile */ .chroma .cpf { color: #8ec07c; font-style: italic }
 /* GenericDeleted */ .chroma .gd { color: #282828; background-color: #fb4934 }
 /* GenericEmph */ .chroma .ge { color: #83a598; text-decoration: underline }

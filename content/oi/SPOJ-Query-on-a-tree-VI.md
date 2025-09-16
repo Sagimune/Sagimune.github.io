@@ -3,8 +3,7 @@ date = '2019-02-25T16:14:38+08:00'
 draft = false
 title = 'SPOJ Query on a Tree VI'
 +++
-{{< katex >}}
-<script type="module" src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/copy-tex.mjs" integrity="sha384-bVEnwt0PtX+1EuJoOEcm4rgTUWvb2ILTdjHfI1gUe/r5fdqrTcQaUuRdHG2DciuQ" crossorigin="anonymous"></script>
+{{< katex >}} {{< copy-tex >}}
 ## Description
 有一棵\(n\)个点的树，点有黑白两种颜色。\(m\)次操作：
 1. 询问一个点所在的同色连通块的大小
