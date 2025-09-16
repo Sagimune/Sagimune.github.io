@@ -1,0 +1,83 @@
+/* fira-mono-regular - greek_latin_latin-ext_greek-ext_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://cdn.jsdelivr.net/npm/syzoj-public-cdn@1.0.1/google-fonts/fonts/fira-mono-v6-greek_latin_latin-ext_greek-ext_cyrillic-ext_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local('Fira Mono Regular'), local('FiraMono-Regular'),
+       url('https://cdn.jsdelivr.net/npm/syzoj-public-cdn@1.0.1/google-fonts/fonts/fira-mono-v6-greek_latin_latin-ext_greek-ext_cyrillic-ext_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://cdn.jsdelivr.net/npm/syzoj-public-cdn@1.0.1/google-fonts/fonts/fira-mono-v6-greek_latin_latin-ext_greek-ext_cyrillic-ext_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('https://cdn.jsdelivr.net/npm/syzoj-public-cdn@1.0.1/google-fonts/fonts/fira-mono-v6-greek_latin_latin-ext_greek-ext_cyrillic-ext_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('https://cdn.jsdelivr.net/npm/syzoj-public-cdn@1.0.1/google-fonts/fonts/fira-mono-v6-greek_latin_latin-ext_greek-ext_cyrillic-ext_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('https://cdn.jsdelivr.net/npm/syzoj-public-cdn@1.0.1/google-fonts/fonts/fira-mono-v6-greek_latin_latin-ext_greek-ext_cyrillic-ext_cyrillic-regular.svg#FiraMono') format('svg'); /* Legacy iOS */
+}
+/* fira-mono-500 - greek_latin_latin-ext_greek-ext_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://cdn.jsdelivr.net/npm/syzoj-public-cdn@1.0.1/google-fonts/fonts/fira-mono-v6-greek_latin_latin-ext_greek-ext_cyrillic-ext_cyrillic-500.eot'); /* IE9 Compat Modes */
+  src: local('Fira Mono Medium'), local('FiraMono-Medium'),
+       url('https://cdn.jsdelivr.net/npm/syzoj-public-cdn@1.0.1/google-fonts/fonts/fira-mono-v6-greek_latin_latin-ext_greek-ext_cyrillic-ext_cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://cdn.jsdelivr.net/npm/syzoj-public-cdn@1.0.1/google-fonts/fonts/fira-mono-v6-greek_latin_latin-ext_greek-ext_cyrillic-ext_cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('https://cdn.jsdelivr.net/npm/syzoj-public-cdn@1.0.1/google-fonts/fonts/fira-mono-v6-greek_latin_latin-ext_greek-ext_cyrillic-ext_cyrillic-500.woff') format('woff'), /* Modern Browsers */
+       url('https://cdn.jsdelivr.net/npm/syzoj-public-cdn@1.0.1/google-fonts/fonts/fira-mono-v6-greek_latin_latin-ext_greek-ext_cyrillic-ext_cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('https://cdn.jsdelivr.net/npm/syzoj-public-cdn@1.0.1/google-fonts/fonts/fira-mono-v6-greek_latin_latin-ext_greek-ext_cyrillic-ext_cyrillic-500.svg#FiraMono') format('svg'); /* Legacy iOS */
+}
+
+/*
+ * Highlight start
+ */
+.chroma {
+    font-family: Fira Mono;
+}
+
+.prose .chroma {
+    background-color: rgb(252, 252, 252);
+}
+
+/* 行号不可被选中 */
+.highlight .chroma .lntable tbody tr .lntd .chroma code .lnt {
+    user-select: none;
+}
+
+/* 行号样式 */
+.highlight .chroma .lntable tbody tr .lntd .chroma code .lnt .lnlinks{
+    color: #b9b9b9;
+    &:is(.dark *) {
+        color: #a3a3a3;
+    }
+}
+
+.highlight .chroma .lntable {
+    overflow: auto;
+}
+
+.highlight .chroma .lntable tbody tr .lntd .chroma {
+    border-radius: 0;
+}
+
+/* 
+ * Highlight end
+ */
+
+/* Article start */
+
+.main-menu, #single_header, #site-footer,
+#top-scroller, section .toc, #the-top,
+#main-content article img[src*="background"],
+#main-content article img[src*="author"] {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+#single_header h1,
+#single_header .author .place-self-center {
+    user-select: text;
+}
+
+.article-content h2 {
+    font-family: Fira Mono;
+}
+
+/* Article end */
