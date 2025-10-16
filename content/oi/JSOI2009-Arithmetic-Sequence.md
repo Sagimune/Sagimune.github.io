@@ -4,7 +4,7 @@ draft = false
 title = 'JSOI2009 等差数列'
 tags = ['线段树']
 +++
-{{< katex >}} {{< copy-tex >}}
+{{< katex >}} {{< copy-tex >}} {{< std >}}
 ## Description
 给定一个长度为\(N\)的序列，\(Q\)次操作：
 1. 每次给一个区间加上一个等差数列

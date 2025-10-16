@@ -3,7 +3,7 @@ date = '2019-02-25T16:14:38+08:00'
 draft = false
 title = 'SPOJ Query on a Tree VI'
 +++
-{{< katex >}} {{< copy-tex >}}
+{{< katex >}} {{< copy-tex >}} {{< std >}}
 ## Description
 有一棵\(n\)个点的树，点有黑白两种颜色。\(m\)次操作：
 1. 询问一个点所在的同色连通块的大小

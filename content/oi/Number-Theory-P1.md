@@ -4,7 +4,7 @@ draft = false
 title = 'Number Theory P1'
 tags = ['数论']
 +++
-{{< katex >}}
+{{< katex >}} {{< std >}}
 ## 费马小定理
 若 \(p\) 是质数，则对于任意整数 \(a\)，有 \(a^p\equiv a \pmod p\)\
 则 \(a^{p-1}\equiv 1 \pmod p\)

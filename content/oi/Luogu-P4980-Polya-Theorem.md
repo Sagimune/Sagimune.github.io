@@ -4,7 +4,7 @@ draft = false
 title = '洛谷4980 Polya定理'
 tags = ['群论']
 +++
-{{< katex >}}
+{{< katex >}} {{< std >}}
 ## Description
 给定一个\(n\)个点，\(n\)条边的环，有\(n\)种颜色，给每个顶点染色\
 问有多少种`本质不同`的染色方案\

@@ -3,7 +3,7 @@ date = '2019-02-19T15:50:21+08:00'
 draft = false
 title = 'fateiceの“NOIP模拟赛”'
 +++
-{{< katex >}}
+{{< katex >}} {{< std >}}
 ## 1.树上游走
 ### Description
 Elephant有一棵n个点的树 \

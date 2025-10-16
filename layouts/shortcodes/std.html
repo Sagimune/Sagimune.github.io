@@ -1,0 +1,15 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+            //Alt键+鼠标滚轮进行横向滚动
+            const scrollContainers = document.querySelectorAll('.highlight .chroma .lntable');
+            scrollContainers.forEach(function(scrollContainer) {
+                scrollContainer.addEventListener('wheel', function(e) {
+                    if (e.altKey) {
+                        e.preventDefault();
+                        const scrollAmount = e.deltaY*0.3;
+                        scrollContainer.scrollLeft += scrollAmount;
+                    }
+                });
+            });
+        });
+</script>
