@@ -1,15 +1,25 @@
 <script>
+    //Alt键+鼠标滚轮进行横向滚动
     document.addEventListener('DOMContentLoaded', function() {
-            //Alt键+鼠标滚轮进行横向滚动
-            const scrollContainers = document.querySelectorAll('.highlight .chroma .lntable');
-            scrollContainers.forEach(function(scrollContainer) {
-                scrollContainer.addEventListener('wheel', function(e) {
-                    if (e.altKey) {
-                        e.preventDefault();
-                        const scrollAmount = e.deltaY*0.3;
-                        scrollContainer.scrollLeft += scrollAmount;
-                    }
-                });
-            });
-        });
+        document.body.addEventListener('wheel', function(e) {
+            // 检查 Alt 键是否被按下
+            if (!e.altKey) {
+                return;
+            }
+            // 'e.target' 是触发事件的最深层元素
+            // '.closest()' 方法会从 e.target 开始向上查找最匹配的选择器的祖先元素
+            const scrollContainer = e.target.closest('.highlight .chroma .lntable');
+
+            // 如果找到了匹配的滚动容器
+            if (scrollContainer) {
+                // 阻止默认的垂直滚动行为
+                e.preventDefault();
+
+                // 根据滚轮方向计算滚动量并进行水平滚动
+                // e.deltaY 的正负值代表了滚动的方向
+                const scrollAmount = e.deltaY * 0.5; // 可以调整这个乘数来控制滚动速度
+                scrollContainer.scrollLeft += scrollAmount;
+            }
+        }, { passive: false });
+    });
 </script>
