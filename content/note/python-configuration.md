@@ -5,7 +5,23 @@ title = 'Python配置笔记'
 +++
 {{< std >}}
 ## Python2配置
-
+### SSL模块缺失
+安装OpenSSL 1.1.1 （该版本能够配合 Python 2.7.18）
+```bash
+curl https://www.openssl.org/source/old/1.1.1/openssl-1.1.1w.tar.gz | tar -zx
+./config --prefix=/usr/local/openssl/1.1.1
+make -j$(nproc) 
+sudo make install
+```
+修改python源代码根目录下setup.py
+```python
+#Detect SSL support for the socket module (via _ssl)
+        search_for_ssl_incs_in = [
+                              '/usr/local/ssl/include',
+                              '/usr/local/openssl/1.1.1/include', #增加该行内容
+                              '/usr/contrib/ssl/include/'
+                             ]
+```
 ### python2安装
 ```bash
 sudo apt update && sudo apt upgrade
@@ -29,22 +45,4 @@ curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
 sudo python2.7 get-pip.py
 
 pip2.7 --version
-```
-
-### SSL模块缺失
-安装OpenSSL 1.1.1 （该版本能够配合 Python 2.7.18）
-```bash
-curl https://www.openssl.org/source/old/1.1.1/openssl-1.1.1w.tar.gz | tar -zx
-./config --prefix=/usr/local/openssl/1.1.1
-make -j$(nproc) 
-sudo make install
-```
-修改python源代码根目录下setup.py
-```python
-#Detect SSL support for the socket module (via _ssl)
-        search_for_ssl_incs_in = [
-                              '/usr/local/ssl/include',
-                              '/usr/local/openssl/1.1.1/include', #增加该行内容
-                              '/usr/contrib/ssl/include/'
-                             ]
 ```
