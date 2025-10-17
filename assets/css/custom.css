@@ -50,8 +50,37 @@
     user-select: text;
 }
 
+/* 增加正文最大宽度 */
+.max-w-prose {
+        max-width: 100%
+}
+
 /* Article end */
 
+/* --- 针对 WebKit 内核浏览器的滚动条样式 --- */
+
+/* 定义滚动条整体宽度 */
+.highlight .chroma ::-webkit-scrollbar {
+  width: .5rem; /* 垂直滚动条宽度 */
+  height: .5rem; /* 水平滚动条高度 */
+}
+
+/* 定义滚动条滑块 */
+.highlight .chroma ::-webkit-scrollbar-thumb {
+  background-color: oklch(70.8% 0 0); /* 滑块颜色 */
+}
+
+.dark .highlight .chroma ::-webkit-scrollbar-thumb {
+  background-color: oklch(43.9% 0 0); /* 滑块颜色 */
+}
+
+.highlight .chroma ::-webkit-scrollbar-thumb:hover {
+  background-color: oklch(43.9% 0 0); /* 滑块悬停颜色 */
+}
+
+.dark .highlight .chroma ::-webkit-scrollbar-thumb:hover {
+  background-color: oklch(70.8% 0 0); /* 滑块悬停颜色 */
+}
 
 /* Highlight start */
 /* 行号不可被选中 */
@@ -65,6 +94,10 @@
     &:is(.dark *) {
         color: #949494;
     }
+}
+
+.highlight .chroma {
+    border-radius: 0;
 }
 
 .highlight .chroma .lntable {
